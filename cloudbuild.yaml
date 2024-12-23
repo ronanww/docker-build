@@ -14,7 +14,7 @@ dependencies:
     recurse_submodules: true
 - git_source:
     repository:
-      developer_connect: "projects/argo-local-ronanww/locations/us-central1/connections/testing/gitRepositoryLinks/ronanww-node-amqp"
+      developer_connect: "projects/argo-local-ronanww/locations/us-west1/connections/testing/gitRepositoryLinks/ronanww-node-amqp"
     revision: "master"
     dest_path: "node-amqp"
     depth: 5
