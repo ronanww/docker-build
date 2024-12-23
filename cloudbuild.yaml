@@ -15,6 +15,6 @@ dependencies:
 - git_source:
     repository:
       developer_connect: "projects/argo-local-ronanww/locations/us-west1/connections/test1/gitRepositoryLinks/ronanww-docker-build"
-    revision: "master"
+    revision: "main"
     dest_path: "docker-build"
     depth: 5
