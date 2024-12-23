@@ -9,11 +9,12 @@ dependencies:
 - git_source:
     repository:
       url: "https://github.com/ronanww/cloud-builders.git"
-      revision: "7a4a9af10a6acbc2c6c6f40522eb38e199f8c28d"
-      dest_path: "cloud-builders"
+    revision: "7a4a9af10a6acbc2c6c6f40522eb38e199f8c28d"
+    dest_path: "cloud-builders"
+    recurse_submodules: true
 - git_source:
     repository:
       developer_connect: "projects/argo-local-ronanww/locations/us-central1/connections/testing/gitRepositoryLinks/ronanww-node-amqp"
-      revision: "master"
-      dest_path: "node-amqp"
-      depth: 5
+    revision: "master"
+    dest_path: "node-amqp"
+    depth: 5
