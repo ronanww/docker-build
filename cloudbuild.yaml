@@ -5,16 +5,3 @@ images:
 - 'us-central1-docker.pkg.dev/argo-local-ronanww/minikube-test/cb-image'
 options:
   requested_verify_option: VERIFIED
-dependencies:
-- git_source:
-    repository:
-      url: "https://github.com/ronanww/cloud-builders.git"
-    revision: "7a4a9af10a6acbc2c6c6f40522eb38e199f8c28d"
-    dest_path: "cloud-builders"
-    recurse_submodules: true
-- git_source:
-    repository:
-      developer_connect: "projects/argo-local-ronanww/locations/us-west1/connections/test1/gitRepositoryLinks/ronanww-docker-build"
-    revision: "main"
-    dest_path: "docker-build"
-    depth: 5
