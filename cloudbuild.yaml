@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/argo-local-ronanww/minikube-test/cb-image', 'docker-build/']
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/argo-local-ronanww/minikube-test/cb-image', '.']
 images:
 - 'us-central1-docker.pkg.dev/argo-local-ronanww/minikube-test/cb-image'
 options:
